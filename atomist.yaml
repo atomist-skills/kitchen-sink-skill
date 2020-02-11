@@ -1,0 +1,127 @@
+#
+#  Copyright © 2019 Atomist, Inc.
+#
+#  Licensed under the Apache License, Version 2.0 (the "License");
+#  you may not use this file except in compliance with the License.
+#  You may obtain a copy of the License at
+#
+#      http://www.apache.org/licenses/LICENSE-2.0
+#
+#  Unless required by applicable law or agreed to in writing, software
+#  distributed under the License is distributed on an "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#  See the License for the specific language governing permissions and
+#  limitations under the License.
+#
+
+skill:
+  name: "@atomist/kitchen-sink-skill"
+  title: The Kitchen Sink
+  version: "0.1.0"
+  author: Atomist
+  description: Collect an insane set of parameters for no reason
+  long_description: |
+    The user specifies a very bizarre set of unrelated parameters and then
+    we simply echo them back to the user to prove some internal points to ourselves.
+    This runs in multiple dispatch mode.
+  category:
+  - productivity
+  license: Apache-2.0
+  homepage: https://github.com/atomist-skills/kitchen-sink-skill
+  repository: https://github.com/atomist-skills/kitchen-sink-skill
+  icon: http://maven.apache.org/images/logos/maven-feather.png
+  dispatch: multiple
+
+  package:
+    use: '@atomist/package-cljs-skill'
+
+  runtime:
+    name: nodejs10
+    entry_point: eventhandler
+    memory: 256
+    timeout: 60
+
+commands:
+- name: KitchenSink
+  description: "gather insane parameters"
+  pattern: "^kitchen sink.*$"
+
+parameters:
+  - string:
+      description: "This is probably just a text box"
+      displayName: "Simple String"
+      name: "SimpleString"
+      required: true
+  - boolean:
+      description: "This is probably a radio button or something"
+      displayName: "Simple Boolean"
+      name: "SimpleBoolean"
+      required: true
+  - stringArray:
+      description: "I put a min required of 2 and a max allowed of 5.  I also added a pattern where every string has to start with the word Rug"
+      displayName: "String Array"
+      name: "StringArray"
+      pattern: "^Rug.*$"
+      minRequired: 2
+      maxAllowed: 5
+      required: true
+  - repoFilter:
+      description: "Sure, let's select some Repos"
+      displayName: "Repo Filter"
+      name: "RepoFilter"
+      required: true
+  - singleChoice:
+      description: "Select just one of these terrible words"
+      displayName: "Single Choice"
+      name: "SingleChoice"
+      required: true
+      options:
+        - description: "a"
+          text: "bling"
+          value: "bling"
+        - description: "b"
+          text: "hang sandwich"
+          value: "hang sandwich"
+        - description: "c"
+          text: "pendulum"
+          value: "pendulum"
+        - description: "d"
+          text: "blubber"
+          value: "blubber"
+  - multiChoice:
+      description: "Select several of these"
+      displayName: "Multi Choice"
+      name: "MultiChoice"
+      required: true
+      options:
+        - description: "a"
+          text: "bling"
+          value: "bling"
+        - description: "b"
+          text: "hang sandwich"
+          value: "hang sandwich"
+        - description: "c"
+          text: "pendulum"
+          value: "pendulum"
+        - description: "d"
+          text: "blubber"
+          value: "blubber"
+  - schedule:
+      description: "And now let's schedule this activity"
+      displayName: "Schedule"
+      name: "Schedule"
+      required: true
+  - float:
+      description: "pick a number between e and pi"
+      displayName: "Float"
+      name: "Float"
+      maximum: 3.14
+      minimum: 2.718
+      required: true
+  - int:
+      description: "pick a number between 451 and 453"
+      displayName: "Integer"
+      name: "Integer"
+      maximum: 453
+      minimum: 451
+      required: true
