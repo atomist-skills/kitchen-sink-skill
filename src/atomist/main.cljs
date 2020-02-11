@@ -16,7 +16,8 @@
   "process the request pipeline for any events arriving in this skill"
   [request]
   ((-> (api/finished :message "Command Handler" :success "successfully ran the kitchen sink")
-       (middleware)) request))
+       (middleware)
+       (api/add-skill-config)) request))
 
 (defn ^:export handler
   "handler
