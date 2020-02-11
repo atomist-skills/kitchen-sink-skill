@@ -88,24 +88,6 @@ parameters:
         - description: "d"
           text: "blubber"
           value: "blubber"
-  - multiChoice:
-      description: "Select several of these"
-      displayName: "Multi Choice"
-      name: "MultiChoice"
-      required: true
-      options:
-        - description: "a"
-          text: "bling"
-          value: "bling"
-        - description: "b"
-          text: "hang sandwich"
-          value: "hang sandwich"
-        - description: "c"
-          text: "pendulum"
-          value: "pendulum"
-        - description: "d"
-          text: "blubber"
-          value: "blubber"
   - schedule:
       description: "And now let's schedule this activity"
       displayName: "Schedule"
