@@ -9,15 +9,14 @@
 (defn middleware [handler]
   (fn [request]
     (go
-     (<! (api/snippet-message request (json/->str (:configuration request)) "application/json" "configuration"))
+     (<! (api/snippet-message request (json/->str (:configurations request)) "application/json" "configuration"))
      (handler request))))
 
 (defn command-handler
   "process the request pipeline for any events arriving in this skill"
   [request]
   ((-> (api/finished :message "Command Handler" :success "successfully ran the kitchen sink")
-       (middleware)
-       (api/add-skill-config)) request))
+       (middleware)) request))
 
 (defn ^:export handler
   "handler
