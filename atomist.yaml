@@ -107,3 +107,21 @@ parameters:
       maximum: 453
       minimum: 451
       required: true
+  - multiChoice:	
+      description: "Select several of these"	
+      displayName: "Multi Choice"	
+      name: "MultiChoice"	
+      required: true	
+      options:	
+        - description: "a"	
+          text: "bling"	
+          value: "bling"	
+        - description: "b"	
+          text: "hang sandwich"	
+          value: "hang sandwich"	
+        - description: "c"	
+          text: "pendulum"	
+          value: "pendulum"	
+        - description: "d"	
+          text: "blubber"	
+          value: "blubber"
