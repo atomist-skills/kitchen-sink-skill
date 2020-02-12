@@ -1,5 +1,7 @@
 # `@atomist/kitchen-sink-skill`
 
+Does all the things
+
 ---
 
 Created by [Atomist][atomist].
