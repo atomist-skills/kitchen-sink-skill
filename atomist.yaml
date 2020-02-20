@@ -52,6 +52,7 @@ parameters:
       displayName: "Simple String"
       name: "SimpleString"
       required: true
+      placeHolder: "Just the box"
   - boolean:
       description: "This is probably a radio button or something"
       displayName: "Simple Boolean"
@@ -100,6 +101,7 @@ parameters:
       maximum: 3.14
       minimum: 2.718
       required: true
+      placeHolder: "3.15"
   - int:
       description: "pick a number between 451 and 453"
       displayName: "Integer"
@@ -107,6 +109,7 @@ parameters:
       maximum: 453
       minimum: 451
       required: true
+      placeHolder: "16"
   - multiChoice:
       description: "Select several of these"
       displayName: "Multi Choice"
