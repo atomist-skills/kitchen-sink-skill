@@ -48,11 +48,24 @@ commands:
 
 parameters:
   - string:
+      description: "This is a text box with a riddle"
+      displayName: "Riddler"
+      name: "Riddle"
+      pattern: "^A riddle.*$"
+      required: true
+      placeHolder: "Just the box"
+  - string:
       description: "This is probably just a text box"
       displayName: "Simple String"
       name: "SimpleString"
       required: true
       placeHolder: "Just the box"
+  - string:
+      description: "No need to even try with this one"
+      displayName: "Don't even bother"
+      name: "NoString"
+      required: false
+      placeHolder: "Nothing to see here"  
   - boolean:
       description: "This is probably a radio button or something"
       displayName: "Simple Boolean"
