@@ -141,3 +141,22 @@ parameters:
         - description: "d"
           text: "blubber"
           value: "blubber"
+  - multiChoice:
+      description: "More than one and less than Three"
+      displayName: "Two Exactly"
+      name: "TwoChoices"
+      minRequired: 2
+      maxAllowed: 2
+      options:
+        - description: "one"
+          text: "One"
+          value: "one"
+        - description: "two"
+          text: "Two"
+          value: "two"
+        - description: "three"
+          text: "Three"
+          value: "three"
+        - description: "cookie monster"
+          text: "Cookie Monster"
+          value: "cookie_monster"
