@@ -147,6 +147,7 @@ parameters:
       name: "TwoChoices"
       minRequired: 2
       maxAllowed: 2
+      required: true
       options:
         - description: "one"
           text: "One"
