@@ -12,19 +12,12 @@
      (<! (api/snippet-message request (json/->str (:configuration request)) "application/json" "configuration"))
      (handler request))))
 
-(defn add-slack-source-to-event
-  [handler team-id channel-name]
-  (fn [request]
-    (handler (-> request
-                 (api/default-destination)
-                 (update-in [:destinations 0 :slack] assoc :team {:id team-id} :channel {:name channel-name})))))
-
 (defn command-handler
   "process the request pipeline for any events arriving in this skill"
   [request]
   ((-> (api/finished :message "Command Handler" :success "successfully ran the kitchen sink")
        (middleware)
-       (add-slack-source-to-event "TDDAK8WKT" "kitchen-sink-skill")) request))
+       (api/add-slack-source-to-event :team-id "TDDAK8WKT" :channel "kitchen-sink-skill")) request))
 
 (defn ^:export handler
   "handler
@@ -34,5 +27,3 @@
       sendreponse - callback ([obj]) puts an outgoing message on the response topic"
   [data sendreponse]
   (api/make-request data sendreponse command-handler))
-
-(handler #js {:configuration {:crazy "crazy"}} (fn [& args] (println "go" args)))
