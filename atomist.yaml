@@ -17,7 +17,7 @@
 skill:
   name: atomist/kitchen-sink-skill
   title: The Kitchen Sink
-  version: 0.1.18
+  version: 0.1.21
   author: Atomist
   description: Collect an insane set of parameters for no reason
   long_description: |
