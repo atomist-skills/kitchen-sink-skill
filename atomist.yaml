@@ -116,7 +116,7 @@ parameters:
     name: Integer
     minimum: 11
     required: true
-    placeHolder: '5 won't work'
+    placeHolder: '5 will not work'
 - int:
     description: pick a number between 451 and 453
     displayName: Integer
