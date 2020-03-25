@@ -107,24 +107,16 @@ parameters:
 - int:
     description: pick a number between a 'school bus' and 'lunch'
     displayName: orange
-    name: Integer
+    name: orange
     required: true
     placeHolder: 'just do it'
 - int:
     description: pick a number greater than 11
     displayName: is the new black
-    name: Integer
+    name: isthenewblack
     minimum: 11
     required: true
     placeHolder: '5 will not work'
-- int:
-    description: pick a number between 451 and 453
-    displayName: Integer
-    name: Integer
-    maximum: 453
-    minimum: 451
-    required: true
-    placeHolder: '16'
 - multiChoice:
     description: Select several of these
     displayName: Multi Choice
