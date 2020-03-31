@@ -43,9 +43,11 @@ parameters:
 - string:
     description: |
       No need to even try with this one
+        
       ```it has a code block```
         
-      ^^that was supposed to be a break - did it work?
+      <br /> 
+      ^^that was supposed to be a break - shouldn't work, did it work?
       <h1>I shouldn't render</h1>
       
     displayName: Don't even bother
