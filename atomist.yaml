@@ -28,20 +28,26 @@ commands:
   pattern: ^kitchen sink.*$
 parameters:
 - string:
-    description: This is a text box with a riddle
+    description: "This is a text box with a riddle. #Also has this"
     displayName: Riddler
     name: Riddle
     pattern: ^A riddle.*$
     required: true
     placeHolder: Just the box
 - string:
-    description: This is probably just a text box
+    description: This is probably just a text box - with some `inline code`
     displayName: Simple String
     name: SimpleString
     required: true
     placeHolder: Just the box
 - string:
-    description: No need to even try with this one
+    description: |
+      No need to even try with this one
+      ```it has a code block```
+        
+      ^^that was supposed to be a break - did it work?
+      <h1>I shouldn't render</h1>
+      
     displayName: Don't even bother
     name: NoString
     required: false
