@@ -26,6 +26,12 @@ commands:
 - name: KitchenSink
   description: gather insane parameters
   pattern: ^kitchen sink.*$
+- integrations:
+  - name: DockerRegistry
+    type: DockerRegistry
+    description: Docker registry to pull images from
+    minRequired: 1
+#   maxAllowed: 1
 parameters:
 - string:
     description: This is a text box with a riddle
