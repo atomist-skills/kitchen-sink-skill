@@ -26,6 +26,11 @@ commands:
 - name: KitchenSink
   description: gather insane parameters
   pattern: ^kitchen sink.*$
+integrations:
+- name: DockerPushRegistry
+  description: Docker registry used to push
+  typeName: DockerHubRegistryProvider
+  maxAllowed: 1
 parameters:
 - string:
     description: "This is a text box with a riddle. #Also has this"
