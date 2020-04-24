@@ -3,6 +3,6 @@
 
 (def module-name "kitchen-sink-skill")
 (def path ".")
-(def version "0.1.1")
-(def tag "v0.1.1")
-(def generated-at "2020-04-24T16:47:20Z")
+(def version "0.1.62")
+(def tag "v0.1.62")
+(def generated-at "2020-04-24T16:48:49Z")
