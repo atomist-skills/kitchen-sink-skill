@@ -17,6 +17,7 @@ O you're going to need it all, and nothing at all.
 4.  This is a very important step.
 
 > **Note** There is probably a nice warning here telling you about something.
+>
 > And it's multi-line
 
 # How to kitchen-sink-skill
