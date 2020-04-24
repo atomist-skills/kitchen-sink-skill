@@ -4,7 +4,7 @@ skill:
   author: Atomist
   description: Collect an insane set of parameters for no reason
   long_description: |
-    The user specifies a very bizarre set of unrelated parameters and then
+    The user specifies a very bizarre set of unrelated parameters and then 
     we simply echo them back to the user to prove some internal points to ourselves.
     This runs in multiple dispatch mode.
   category:
