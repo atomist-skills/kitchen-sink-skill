@@ -8,8 +8,9 @@ O you're going to need it all, and nothing at all.
 
 # How to Configure
 
-1. Welp, go supply an insane amount of skill params
-2. Specify some other stuff just for fun
+1. Welp, go supply an insane amount of skill params. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  ![random image](https://blog.hubspot.com/hubfs/image8-2.jpg)
+
+2. Specify some other stuff just for fun. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ![Thx adam-p, I always forget image syntax for some reason](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
@@ -28,3 +29,11 @@ O you're going to need it all, and nothing at all.
 * stuff 
 * will
 * happen
+
+1. Is 
+2. This
+3. Thing
+4. On?
+
+![Ocean](https://static.scientificamerican.com/sciam/cache/file/BCC3BD1E-5DC0-4843-A841706AE575C694_source.jpg?w=590&h=800&39BBF62E-5F96-4C6A-A59590CCF416DA11)
+
