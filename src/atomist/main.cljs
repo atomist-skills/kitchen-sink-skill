@@ -9,8 +9,8 @@
 (defn middleware [handler config-key]
   (fn [request]
     (go
-     (<! (api/snippet-message request (json/->str (config-key request)) "application/json" "configuration"))
-     (handler request))))
+      (<! (api/snippet-message request (json/->str (config-key request)) "application/json" "configuration"))
+      (handler request))))
 
 (defn command-handler
   "process the request pipeline for any events arriving in this skill"
