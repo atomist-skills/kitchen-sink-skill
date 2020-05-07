@@ -28,7 +28,7 @@ commands:
   - name: KitchenSink
     description: gather insane parameters
     pattern: ^kitchen sink.*$
-integrations:
+resourceProviders:
   - name: DockerPushRegistry
     description: Docker registry used to push
     typeName: DockerHubRegistryProvider
