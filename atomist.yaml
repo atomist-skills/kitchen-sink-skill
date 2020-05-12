@@ -28,12 +28,6 @@ commands:
   - name: KitchenSink
     description: gather insane parameters
     pattern: ^kitchen sink.*$
-resourceProviders:
-  - name: DockerPushRegistry
-    description: Docker registry used to push
-    typeName: DockerHubRegistryProvider
-    maxAllowed: 1
-    
 resource_providers:
   - name: github
     description: GitHub
