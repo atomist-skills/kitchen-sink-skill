@@ -39,7 +39,7 @@ resource_providers:
     type_name: SlackResourceProvider
     min_required: 1
     max_allowed: 1
-    - name: docker_push_registry
+  - name: docker_push_registry
     description: Docker registry to push to
     type_name: DockerRegistry
     min_required: 1
