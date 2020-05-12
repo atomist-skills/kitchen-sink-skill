@@ -31,22 +31,22 @@ commands:
 resource_providers:
   - name: github
     description: GitHub
-    type_name: GitHubAppResourceProvider
-    min_required: 1
-    max_allowed: 1
+    typeName: GitHubAppResourceProvider
+    minRequired: 1
+    maxAllowed: 1
   - name: slack
     description: Slack
-    type_name: SlackResourceProvider
-    min_required: 1
-    max_allowed: 1
+    typeName: SlackResourceProvider
+    minRequired: 1
+    maxAllowed: 1
   - name: docker_push_registry
     description: Docker registry to push to
-    type_name: DockerRegistry
-    min_required: 1
+    typeName: DockerRegistry
+    minRequired: 1
   - name: docker_pull_registries
     description: Docker registries to pull from
-    type_name: DockerRegistry
-    min_required: 1
+    typeName: DockerRegistry
+    minRequired: 1
 
 
 parameters:
