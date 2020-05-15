@@ -28,7 +28,7 @@ commands:
   - name: KitchenSink
     description: gather insane parameters
     pattern: ^kitchen sink.*$
-resource_providers:
+resourceProviders:
   - name: github
     description: GitHub
     typeName: GitHubAppResourceProvider
