@@ -6,10 +6,21 @@
             [atomist.api :as api])
   (:require-macros [cljs.core.async.macros :refer [go]]))
 
+; Courtesy of https://gist.github.com/swannodette/5882703
+(defn timeout [ms]
+  (let [c (chan)]
+    (js/setTimeout (fn [] (close! c)) ms) c))
+
 (defn middleware [handler config-key]
   (fn [request]
     (go
       (<! (api/snippet-message request (json/->str (config-key request)) "application/json" "configuration"))
+      (handler request))))
+
+(defn sleep [handler]
+  (fn [request]
+    (go
+      (<! (timeout 30000))
       (handler request))))
 
 (defn command-handler
@@ -20,6 +31,7 @@
 
 (defn scheduled-event-handler [request]
   ((-> (api/finished :message "Scheduled Event Handler" :success "kitchen sink schedule fired")
+       (sleep)
        (middleware :configuration)
        (api/add-slack-source-to-event :team-id "TDDAK8WKT" :channel "kitchen-sink-skill")) request))
 
