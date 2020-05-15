@@ -1,6 +1,6 @@
 (ns atomist.main
   (:require [cljs.pprint :refer [pprint]]
-            [cljs.core.async :refer [<! timeout chan]]
+            [cljs.core.async :refer [<! timeout chan close!]]
             [goog.string.format]
             [atomist.json :as json]
             [atomist.api :as api])
