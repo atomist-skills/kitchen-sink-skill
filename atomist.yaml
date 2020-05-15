@@ -12,7 +12,7 @@ skill:
     The user specifies a very bizarre set of unrelated parameters and then 
 
     we simply echo them back to the user to prove some internal points to
-    ourselves.
+    ourselves..
 
     This runs in multiple dispatch mode.
   icon: 'https://images.atomist.com/logo/atomist-black-mark-small-2x.png'
