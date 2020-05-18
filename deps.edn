@@ -18,7 +18,7 @@
   {:extra-deps {metav {:mvn/version "1.6.7"}},
    :main-opts ["-m" "metav.display"]},
   :release
-  {:extra-deps {metav {:mvn/version "1.6.7"}},
+  {:extra-deps {metav {:local/root "/Users/slim/atomist/slimslenderslacks/metav"}},
    :main-opts
    ["-m"
     "metav.release"
@@ -29,4 +29,6 @@
     "atomist.skill-meta" 
     "--formats" 
     "cljs" 
-    "--without-sign"]}}}
+    "--without-sign"
+    "--prefix"
+    ":none"]}}}
