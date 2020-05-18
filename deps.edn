@@ -1,7 +1,7 @@
 {:paths ["src"],
  :deps
  {org.clojure/clojurescript {:mvn/version "1.10.520"},
-  com.atomist/api-cljs {:mvn/version "0.4.2"}},
+  com.atomist/api-cljs {:mvn/version "0.4.3"}},
  :aliases
  {:dev
   {:extra-deps
@@ -18,7 +18,8 @@
   {:extra-deps {metav {:mvn/version "1.6.7"}},
    :main-opts ["-m" "metav.display"]},
   :release
-  {:extra-deps {metav {:local/root "/Users/slim/atomist/slimslenderslacks/metav"}},
+  {:extra-deps
+   {metav {:local/root "/Users/slim/atomist/slimslenderslacks/metav"}},
    :main-opts
    ["-m"
     "metav.release"
@@ -26,9 +27,9 @@
     "--output-dir"
     "src"
     "--namespace"
-    "atomist.skill-meta" 
+    "atomist.skill-meta"
     "--formats" 
     "cljs" 
-    "--without-sign"
-    "--prefix"
+    "--without-sign" 
+    "--prefix" 
     ":none"]}}}
