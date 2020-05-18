@@ -29,10 +29,26 @@ commands:
     description: gather insane parameters
     pattern: ^kitchen sink.*$
 resourceProviders:
-  - name: DockerPushRegistry
-    description: Docker registry used to push
-    typeName: DockerHubRegistryProvider
+  - name: github
+    description: GitHub
+    typeName: GitHubAppResourceProvider
+    minRequired: 1
     maxAllowed: 1
+  - name: slack
+    description: Slack
+    typeName: SlackResourceProvider
+    minRequired: 1
+    maxAllowed: 1
+  - name: docker_push_registry
+    description: Docker registry to push to
+    typeName: DockerRegistry
+    minRequired: 1
+  - name: docker_pull_registries
+    description: Docker registries to pull from
+    typeName: DockerRegistry
+    minRequired: 1
+
+
 parameters:
   - string:
       description: 'This is a text box with a riddle. #Also has this'
