@@ -28,9 +28,9 @@ Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apa
 
 | Name | Version | Publisher | Repository |
 |------|---------|-----------|------------|
-|`@atomist/skill-logging`|`0.1.0-master.20200306143401`|Atomist|[https://github.com/atomist/skill-logging](https://github.com/atomist/skill-logging)|
+|`@atomist/skill-logging`|`0.1.0-master.20200316180914`|Atomist|[https://github.com/atomist/skill-logging](https://github.com/atomist/skill-logging)|
 |`@google-cloud/common`|`2.2.6`|Google Inc.|[https://github.com/googleapis/nodejs-common](https://github.com/googleapis/nodejs-common)|
-|`@google-cloud/logging`|`7.2.3`|Google Inc.|[https://github.com/googleapis/nodejs-logging](https://github.com/googleapis/nodejs-logging)|
+|`@google-cloud/logging`|`7.3.0`|Google Inc.|[https://github.com/googleapis/nodejs-logging](https://github.com/googleapis/nodejs-logging)|
 |`@google-cloud/paginator`|`2.0.3`|Google Inc.|[https://github.com/googleapis/nodejs-paginator](https://github.com/googleapis/nodejs-paginator)|
 |`@google-cloud/precise-date`|`1.0.3`|Google Inc.|[https://github.com/googleapis/nodejs-precise-date](https://github.com/googleapis/nodejs-precise-date)|
 |`@google-cloud/projectify`|`1.0.4`|Google Inc.|[https://github.com/googleapis/nodejs-projectify](https://github.com/googleapis/nodejs-projectify)|
@@ -86,7 +86,7 @@ Creative Commons Zero v1.0 Universal - [https://creativecommons.org/publicdomain
 
 | Name | Version | Publisher | Repository |
 |------|---------|-----------|------------|
-|`type-fest`|`0.11.0`|Sindre Sorhus|[https://github.com/sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)|
+|`type-fest`|`0.12.0`|Sindre Sorhus|[https://github.com/sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)|
 
 #### GPL-2.0
 GNU General Public License v2.0 only - [https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html](https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html)
@@ -217,7 +217,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 |`safe-buffer`|`5.2.0`|Feross Aboukhadijeh|[https://github.com/feross/safe-buffer](https://github.com/feross/safe-buffer)|
 |`safer-buffer`|`2.1.2`|Nikita Skovoroda|[https://github.com/ChALkeR/safer-buffer](https://github.com/ChALkeR/safer-buffer)|
 |`shell-quote`|`1.7.2`|James Halliday|[https://github.com/substack/node-shell-quote](https://github.com/substack/node-shell-quote)|
-|`snakecase-keys`|`3.1.2`|Ben Drucker|[https://github.com/bendrucker/snakecase-keys](https://github.com/bendrucker/snakecase-keys)|
+|`snakecase-keys`|`3.2.0`|Ben Drucker|[https://github.com/bendrucker/snakecase-keys](https://github.com/bendrucker/snakecase-keys)|
 |`snakeize`|`0.1.0`|James Halliday|[https://github.com/nathan7/snakeize](https://github.com/nathan7/snakeize)|
 |`stream-events`|`1.0.5`|Stephen Sawchuk|[https://github.com/stephenplusplus/stream-events](https://github.com/stephenplusplus/stream-events)|
 |`stream-shift`|`1.0.1`|Mathias Buus|[https://github.com/mafintosh/stream-shift](https://github.com/mafintosh/stream-shift)|
@@ -232,7 +232,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 |`to-regex-range`|`5.0.1`|Jon Schlinkert|[https://github.com/micromatch/to-regex-range](https://github.com/micromatch/to-regex-range)|
 |`to-snake-case`|`1.0.0`||[https://github.com/ianstormtaylor/to-snake-case](https://github.com/ianstormtaylor/to-snake-case)|
 |`to-space-case`|`1.0.0`||[https://github.com/ianstormtaylor/to-space-case](https://github.com/ianstormtaylor/to-space-case)|
-|`type-fest`|`0.11.0`|Sindre Sorhus|[https://github.com/sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)|
+|`type-fest`|`0.12.0`|Sindre Sorhus|[https://github.com/sindresorhus/type-fest](https://github.com/sindresorhus/type-fest)|
 |`typedarray-to-buffer`|`3.1.5`|Feross Aboukhadijeh|[https://github.com/feross/typedarray-to-buffer](https://github.com/feross/typedarray-to-buffer)|
 |`typedarray`|`0.0.6`|James Halliday|[https://github.com/substack/typedarray](https://github.com/substack/typedarray)|
 |`unique-string`|`2.0.0`|Sindre Sorhus|[https://github.com/sindresorhus/unique-string](https://github.com/sindresorhus/unique-string)|
