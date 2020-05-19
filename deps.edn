@@ -15,8 +15,8 @@
   {:extra-deps {cljfmt {:mvn/version "0.6.7"}},
    :main-opts ["-m" "cljfmt.main" "fix" "src" "test"]},
   :version
-  {:extra-deps {metav {:mvn/version "1.6.7"}},
-   :main-opts ["-m" "metav.display"]},
+  {:extra-deps {metav {:local/root "/Users/slim/atomist/slimslenderslacks/metav"}},
+   :main-opts ["-m" "metav.display" "--prefix" ":none"]},
   :release
   {:extra-deps {metav {:local/root "/Users/slim/atomist/slimslenderslacks/metav"}},
    :main-opts
