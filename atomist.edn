@@ -1,0 +1,156 @@
+{:skill
+ {:description
+  "Collect an insane set of parameters for no reason at all",
+  :category ["productivity"],
+  :package {:use "atomist/package-cljs-skill"},
+  :repository "https://github.com/atomist-skills/kitchen-sink-skill",
+  :license "Apache-2.0",
+  :homepage "https://github.com/atomist-skills/kitchen-sink-skill",
+  :name "atomist/kitchen-sink-skill",
+  :long_description
+  "The user specifies a very bizarre set of unrelated parameters and then \nwe simply echo them back to the user to prove some internal points to ourselves.\nThis runs in multiple dispatch mode.\n",
+  :icon
+  "https://images.atomist.com/logo/atomist-black-mark-small-2x.png",
+  :title "The Kitchen Sink",
+  :author "Atomist",
+  :dispatch "multiple",
+  :runtime
+  {:name "nodejs10",
+   :entry_point "eventhandler",
+   :memory 256,
+   :timeout 60},
+  :homepageUrl "https://github.com/atomist-skills/kitchen-sink-skill"},
+ :resourceProviders
+ [{:name "github",
+   :description "GitHub",
+   :typeName "GitHubAppResourceProvider",
+   :minRequired 1,
+   :maxAllowed 1}
+  {:name "slack",
+   :description "Slack",
+   :typeName "SlackResourceProvider",
+   :minRequired 1,
+   :maxAllowed 1}
+  {:name "docker_push_registry",
+   :description "Docker registry to push to",
+   :typeName "DockerRegistry",
+   :minRequired 1}
+  {:name "docker_pull_registries",
+   :description "Docker registries to pull from",
+   :typeName "DockerRegistry",
+   :minRequired 1}],
+ :subscriptions
+ ["subscription OnSchedule {\n    OnSchedule {\n        configurationName\n        parameterName\n    }\n} "],
+ :commands
+ [{:name "KitchenSink",
+   :description "gather insane parameters",
+   :pattern "^kitchen sink.*$"}],
+ :parameters
+ [{:string
+   {:description "This is a text box with a riddle. #Also has this",
+    :displayName "Riddler",
+    :name "Riddle",
+    :pattern "^A riddle.*$",
+    :required true,
+    :placeHolder "Just the box"}}
+  {:string
+   {:description
+    "This is probably just a text box - with some `inline code`",
+    :displayName "Simple String",
+    :name "SimpleString",
+    :required true,
+    :placeHolder "Just the box"}}
+  {:string
+   {:description
+    "No need to even try with this one\n  \n```it has a code block```\n  \n<br /> \n^^that was supposed to be a break - shouldn't work, did it work?\n<h1>I shouldn't render</h1>\n",
+    :displayName "Don't even bother",
+    :name "NoString",
+    :required false,
+    :placeHolder "Nothing to see here"}}
+  {:boolean
+   {:description "This is probably a radio button or something",
+    :displayName "Simple Boolean",
+    :name "SimpleBoolean",
+    :required true}}
+  {:stringArray
+   {:description
+    "I put a min required of 2 and a max allowed of 5.  I also added a pattern where every string has to start with the word Rug",
+    :displayName "String Array",
+    :name "StringArray",
+    :pattern "^Rug.*$",
+    :minRequired 2,
+    :maxAllowed 5,
+    :required true}}
+  {:repoFilter
+   {:description "Sure, let's select some Repos",
+    :displayName "Repo Filter",
+    :name "RepoFilter",
+    :required true}}
+  {:singleChoice
+   {:description "Select just one of these terrible words",
+    :displayName "Single Choice",
+    :name "SingleChoice",
+    :required true,
+    :options
+    [{:description "a", :text "bling", :value "bling"}
+     {:description "b", :text "hang sandwich", :value "hang sandwich"}
+     {:description "c", :text "pendulum", :value "pendulum"}
+     {:description "d", :text "blubber", :value "blubber"}]}}
+  {:schedule
+   {:description "And now let's schedule this activity",
+    :displayName "Schedule",
+    :name "Schedule",
+    :required true}}
+  {:float
+   {:description "pick a number between e and pi",
+    :displayName "Float",
+    :name "Float",
+    :maximum 3.14,
+    :minimum 2.718,
+    :required true,
+    :placeHolder "3.15"}}
+  {:int
+   {:description "pick a number between 451 and 453",
+    :displayName "Integer",
+    :name "Integer",
+    :maximum 453,
+    :minimum 451,
+    :required true,
+    :placeHolder "16"}}
+  {:int
+   {:description "pick a number between a 'school bus' and 'lunch'",
+    :displayName "orange",
+    :name "orange",
+    :required true,
+    :placeHolder "just do it"}}
+  {:int
+   {:description "pick a number greater than 11",
+    :displayName "is the new black",
+    :name "isthenewblack",
+    :minimum 11,
+    :required true,
+    :placeHolder "5 will not work"}}
+  {:multiChoice
+   {:description "Select several of these",
+    :displayName "Multi Choice",
+    :name "MultiChoice",
+    :required true,
+    :options
+    [{:description "a", :text "bling", :value "bling"}
+     {:description "b", :text "hang sandwich", :value "hang sandwich"}
+     {:description "c", :text "pendulum", :value "pendulum"}
+     {:description "d", :text "blubber", :value "blubber"}]}}
+  {:multiChoice
+   {:description "More than one and less than Three",
+    :displayName "Two Exactly",
+    :name "TwoChoices",
+    :minRequired 2,
+    :maxAllowed 2,
+    :required true,
+    :options
+    [{:description "one", :text "One", :value "one"}
+     {:description "two", :text "Two", :value "two"}
+     {:description "three", :text "Three", :value "three"}
+     {:description "cookie monster",
+      :text "Cookie Monster", 
+      :value "cookie_monster"}]}}]}
