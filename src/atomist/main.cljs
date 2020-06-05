@@ -22,7 +22,8 @@
   "process the request pipeline for any events arriving in this skill"
   [request]
   ((-> (api/finished :message "Command Handler" :success "successfully ran the kitchen sink")
-       (middleware :configurations)
+       (middleware :skill)
+       (api/log-event)
        (api/status)) request))
 
 (defn scheduled-event-handler [request]
@@ -30,6 +31,7 @@
        (sleep)
        (middleware :configuration)
        (api/add-slack-source-to-event :team-id "TDDAK8WKT" :channel "kitchen-sink-skill")
+       (api/log-event)
        (api/status)) request))
 
 (defn ^:export handler

@@ -38,7 +38,12 @@
   {:name "docker_pull_registries",
    :description "Docker registries to pull from",
    :typeName "DockerRegistry",
-   :minRequired 1}],
+   :minRequired 1}
+  {:name "k8_cluster",
+   :description "Docker registries to pull from",
+   :typeName "KubernetesClusterProvider",
+   :minRequired 1
+   :maxAllowed 7}],
  :subscriptions
  ["subscription OnSchedule {\n    OnSchedule {\n        configurationName\n        parameterName\n    }\n} "],
  :commands
