@@ -37,8 +37,6 @@
  "https://images.atomist.com/logo/atomist-black-mark-small-2x.png",
  :title "The Kitchen Sink",
  :author "Atomist",
- :subscriptions
- ["subscription OnSchedule {\n    OnSchedule {\n        configurationName\n        parameterName\n    }\n} "],
  :dispatch "multiple",
  :commands
  [{:name "KitchenSink",
