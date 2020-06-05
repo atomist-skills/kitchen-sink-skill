@@ -30,7 +30,7 @@
    :maxAllowed 7}],
  :homepage "https://github.com/atomist-skills/kitchen-sink-skill",
  :displayName "kitchen sink skill",
- :name "atomist/kitchen-sink-skill",
+ :name "kitchen-sink-skill",
  :long_description
  "The user specifies a very bizarre set of unrelated parameters and then \nwe simply echo them back to the user to prove some internal points to ourselves.\nThis runs in multiple dispatch mode\n",
  :icon
