@@ -1,0 +1,12 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](http://keepachangelog.com/)
+and this project adheres to [Semantic Versioning](http://semver.org/).
+
+## [Unreleased](https://github.com/atomist-skills/kitchen-sink-skill/tree/HEAD)
+
+### Changed
+
+-   packaging to use atomist/skill-package-skill. [7c2e11b](https://github.com/atomist-skills/kitchen-sink-skill/commit/7c2e11bd5c028152f9b9487ad4c97e6b8c43ee15)
