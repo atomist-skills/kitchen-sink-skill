@@ -22,7 +22,12 @@
   {:name "docker_pull_registries",
    :description "Docker registries to pull from",
    :typeName "DockerRegistry",
-   :minRequired 1}],
+   :minRequired 1}
+  {:name "k8_cluster",
+   :description "Docker registries to pull from",
+   :typeName "KubernetesClusterProvider",
+   :minRequired 1
+   :maxAllowed 7}],
  :homepage "https://github.com/atomist-skills/kitchen-sink-skill",
  :displayName "kitchen sink skill",
  :name "atomist/kitchen-sink-skill",
