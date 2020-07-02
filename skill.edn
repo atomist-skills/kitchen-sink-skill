@@ -26,7 +26,7 @@
   {:name "k8_cluster",
    :description "Docker registries to pull from",
    :typeName "KubernetesClusterProvider",
-   :minRequired 1
+   :minRequired 1,
    :maxAllowed 7}],
  :homepage "https://github.com/atomist-skills/kitchen-sink-skill",
  :displayName "kitchen sink skill",
@@ -160,8 +160,10 @@
       :text "Cookie Monster",
       :value "cookie_monster"}]}}],
  :namespace "atomist",
- :artifacts {:gcf [{:name "package-cljs-skill",
-                    :entryPoint "eventhandler",
-                    :memory 512,
-                    :runtime "nodejs10",
-                    :timeout 60}]}}
+ :artifacts
+ {:gcf
+  [{:name "package-cljs-skill",
+    :entryPoint "eventhandler",
+    :memory 512, 
+    :runtime "nodejs10", 
+    :timeout 60}]}}
