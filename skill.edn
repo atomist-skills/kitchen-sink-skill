@@ -16,10 +16,12 @@
    :minRequired 1,
    :maxAllowed 1}
   {:name "docker_push_registry",
+   :displayName "Docker Push Registry"
    :description "Docker registry to push to",
    :typeName "DockerRegistry",
    :minRequired 1}
   {:name "docker_pull_registries",
+   :displayName "Docker Pull Registry"
    :description "Docker registries to pull from",
    :typeName "DockerRegistry",
    :minRequired 1}
