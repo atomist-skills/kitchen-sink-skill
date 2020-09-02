@@ -29,7 +29,12 @@
    :description "Docker registries to pull from",
    :typeName "KubernetesClusterProvider",
    :minRequired 1
-   :maxAllowed 7}],
+   :maxAllowed 7}
+  {:name "secret"
+   :displayName "Secrets"
+   :description "Make configured secrets available in skill"
+   :typeName "SecretProvider"
+   :minRequired 0}],
  :homepage "https://github.com/atomist-skills/kitchen-sink-skill",
  :displayName "kitchen sink skill",
  :name "kitchen-sink-skill",
