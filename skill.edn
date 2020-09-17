@@ -16,26 +16,25 @@
    :minRequired 1,
    :maxAllowed 1}
   {:name "docker_push_registry",
-   :displayName "Docker Push Registry"
+   :displayName "Docker Push Registry",
    :description "Docker registry to push to",
    :typeName "DockerRegistry",
    :minRequired 1}
   {:name "docker_pull_registries",
-   :displayName "Docker Pull Registry"
+   :displayName "Docker Pull Registry",
    :description "Docker registries to pull from",
    :typeName "DockerRegistry",
    :minRequired 1}
   {:name "k8_cluster",
    :description "Docker registries to pull from",
    :typeName "KubernetesClusterProvider",
-   :minRequired 1
+   :minRequired 1,
    :maxAllowed 7}
-  {:name "secret"
-   :displayName "Secrets"
-   :description "Make configured secrets available in skill"
-   :typeName "SecretProvider"
+  {:name "secret",
+   :displayName "Secrets",
+   :description "Make configured secrets available in skill",
+   :typeName "SecretProvider",
    :minRequired 0}],
- :homepageUrl "https://github.com/atomist-skills/kitchen-sink-skill",
  :displayName "kitchen sink skill",
  :name "kitchen-sink-skill",
  :long_description
@@ -56,6 +55,7 @@
   :entry_point "eventhandler",
   :memory 256,
   :timeout 60},
+ :homepageUrl "https://github.com/atomist-skills/kitchen-sink-skill",
  :parameters
  [{:string
    {:description "This is a text box with a riddle. #Also has this",
@@ -166,8 +166,10 @@
       :text "Cookie Monster",
       :value "cookie_monster"}]}}],
  :namespace "atomist",
- :artifacts {:gcf [{:name "package-cljs-skill",
-                    :entryPoint "eventhandler",
-                    :memory 512,
-                    :runtime "nodejs10",
-                    :timeout 60}]}}
+ :artifacts
+ {:gcf
+  [{:name "package-cljs-skill",
+    :entryPoint "eventhandler",
+    :memory 512, 
+    :runtime "nodejs10", 
+    :timeout 60}]}}
