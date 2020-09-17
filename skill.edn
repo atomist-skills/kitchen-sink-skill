@@ -35,7 +35,7 @@
    :description "Make configured secrets available in skill"
    :typeName "SecretProvider"
    :minRequired 0}],
- :homepage "https://github.com/atomist-skills/kitchen-sink-skill",
+ :homepageUrl "https://github.com/atomist-skills/kitchen-sink-skill",
  :displayName "kitchen sink skill",
  :name "kitchen-sink-skill",
  :long_description
