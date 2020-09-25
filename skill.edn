@@ -82,6 +82,7 @@
    {:description "This is probably a radio button or something",
     :displayName "Simple Boolean",
     :name "SimpleBoolean",
+    :defaultValue true
     :required true}}
   {:stringArray
    {:description
