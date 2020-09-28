@@ -79,6 +79,14 @@
     :required true,
     :placeHolder "Just the box"}}
   {:string
+   {:description "This is a text box that is an advanced param",
+    :displayName "Advanced Riddler",
+    :name "advanced-riddle",
+    :pattern "^A riddle.*$",
+    :visibility "advanced",
+    :required false,
+    :placeHolder "Just the box"}}
+  {:string
    {:description
     "This is probably just a text box - with some `inline code`",
     :displayName "Simple String",
