@@ -17,7 +17,7 @@ This page details all runtime dependencies of `kitchen-sink`.
 | [CC0-1.0](#cc0-10)            | 2     |
 | [GPL-2.0](#gpl-20)            | 2     |
 | [ISC](#isc)                   | 31    |
-| [MIT](#mit)                   | 176   |
+| [MIT](#mit)                   | 175   |
 | [UNKNOWN](#unknown)           | 1     |
 | [Unlicense](#unlicense)       | 1     |
 
@@ -264,7 +264,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `extend`                     | `3.0.2`    | Stefan Thomas       | [https://github.com/justmoon/node-extend](https://github.com/justmoon/node-extend)                                                             |
 | `extsprintf`                 | `1.3.0`    |                     | [https://github.com/davepacheco/node-extsprintf](https://github.com/davepacheco/node-extsprintf)                                               |
 | `fast-deep-equal`            | `3.1.1`    | Evgeny Poberezkin   | [https://github.com/epoberezkin/fast-deep-equal](https://github.com/epoberezkin/fast-deep-equal)                                               |
-| `fast-glob`                  | `3.2.2`    | Denis Malinochkin   | [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)                                                                     |
+| `fast-glob`                  | `3.2.4`    | Denis Malinochkin   | [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)                                                                     |
 | `fast-json-stable-stringify` | `2.1.0`    | James Halliday      | [https://github.com/epoberezkin/fast-json-stable-stringify](https://github.com/epoberezkin/fast-json-stable-stringify)                         |
 | `fill-range`                 | `7.0.1`    | Jon Schlinkert      | [https://github.com/jonschlinkert/fill-range](https://github.com/jonschlinkert/fill-range)                                                     |
 | `find-up`                    | `4.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/find-up](https://github.com/sindresorhus/find-up)                                                             |
@@ -296,7 +296,6 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `is`                         | `3.3.0`    | Enrico Marino       | [https://github.com/enricomarino/is](https://github.com/enricomarino/is)                                                                       |
 | `isarray`                    | `1.0.0`    | Julian Gruber       | [https://github.com/juliangruber/isarray](https://github.com/juliangruber/isarray)                                                             |
 | `isstream`                   | `0.1.2`    | Rod Vagg            | [https://github.com/rvagg/isstream](https://github.com/rvagg/isstream)                                                                         |
-| `js-yaml`                    | `3.13.1`   | Vladimir Zapparov   | [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)                                                                         |
 | `js-yaml`                    | `3.14.0`   | Vladimir Zapparov   | [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)                                                                         |
 | `jsbn`                       | `0.1.1`    | Tom Wu              | [https://github.com/andyperlitch/jsbn](https://github.com/andyperlitch/jsbn)                                                                   |
 | `json-bigint`                | `0.3.0`    | Andrey Sidorov      | [https://github.com/sidorares/json-bigint](https://github.com/sidorares/json-bigint)                                                           |
@@ -312,7 +311,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `lodash.snakecase`           | `4.1.1`    | John-David Dalton   | [https://github.com/lodash/lodash](https://github.com/lodash/lodash)                                                                           |
 | `make-dir`                   | `3.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/make-dir](https://github.com/sindresorhus/make-dir)                                                           |
 | `map-obj`                    | `4.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/map-obj](https://github.com/sindresorhus/map-obj)                                                             |
-| `merge2`                     | `1.3.0`    |                     | [https://github.com/teambition/merge2](https://github.com/teambition/merge2)                                                                   |
+| `merge2`                     | `1.4.1`    |                     | [https://github.com/teambition/merge2](https://github.com/teambition/merge2)                                                                   |
 | `micromatch`                 | `4.0.2`    | Jon Schlinkert      | [https://github.com/micromatch/micromatch](https://github.com/micromatch/micromatch)                                                           |
 | `mime-db`                    | `1.43.0`   |                     | [https://github.com/jshttp/mime-db](https://github.com/jshttp/mime-db)                                                                         |
 | `mime-types`                 | `2.1.26`   |                     | [https://github.com/jshttp/mime-types](https://github.com/jshttp/mime-types)                                                                   |
