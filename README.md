@@ -8,10 +8,22 @@ O you're going to need it all, and nothing at all.
 
 # How to Configure
 
-1. Welp, go supply an insane amount of skill params. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ![random image](https://blog.hubspot.com/hubfs/image8-2.jpg)
+1. Welp, go supply an insane amount of skill params. Lorem ipsum dolor sit amet,
+   consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+   ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+   dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+   officia deserunt mollit anim id est laborum.
+   ![random image](https://blog.hubspot.com/hubfs/image8-2.jpg)
 
-2. Specify some other stuff just for fun.
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+2. Specify some other stuff just for fun. Lorem ipsum dolor sit amet,
+   consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+   ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+   dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+   pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+   officia deserunt mollit anim id est laborum.
 
 ![Thx adam-p, I always forget image syntax for some reason](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
@@ -24,7 +36,12 @@ O you're going to need it all, and nothing at all.
 
 # How to kitchen-sink-skill
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+culpa qui officia deserunt mollit anim id est laborum.
 
 1.  To actually run this thing, head on over to slack and run it
 
