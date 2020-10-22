@@ -97,3 +97,8 @@ Nested
     -   DD
 -   EEE
 -   FFF
+
+
+```
+Math.random();
+````
