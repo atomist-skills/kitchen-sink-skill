@@ -53,10 +53,7 @@ Loose list
 -   c
 
     ddd
-    
-    
-    
-    
+
 7.  **Commit Strategy**
 
     ![Fix strategy](docs/images/commit-strategy.png)
