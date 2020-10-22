@@ -76,7 +76,6 @@ Loose list
     -   **Commit to any branch** - with this option, fixes on all branches will
         be committed straight to the branch
 
-
     Pull requests that get raised by this skill will automatically have a
     reviewer assigned based on the person who pushed code. Pull requests that
     are not needed any longer, i.e., because all lint violations were fixed
