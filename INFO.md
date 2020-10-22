@@ -2,13 +2,37 @@
 
 Well, nothing. But it can be good for testing!
 
-```
+
+Javascript block
+```javascript
 Math.random();
+```
+
+Auto-detect block
+```
+Facter.add(:libcheck) do
+  require 'digest'
+  require 'yaml'
+
+  begin
+    digests = YAML.load(File.open('/Users/ipcrm/adhoc/fim/digest.yaml'))
+  rescue
+    exists = false
+    digests = {}
+  end
+
+  new = {}
+
+  begin
+    files = Dir['/Users/ipcrm/adhoc/fim/lib/*']
+  rescue
+    exit 1
+  end
 ```
 
 > Should not highlight
 
-```no-highlight
+```nohighlight
 new Thing();
 ```
 
