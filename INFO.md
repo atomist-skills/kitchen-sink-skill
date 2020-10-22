@@ -8,9 +8,9 @@ Javascript block
 Math.random();
 ```
 
-Auto-detect block
+Ruby
 
-```
+```ruby
 Facter.add(:libcheck) do
   require 'digest'
   require 'yaml'
