@@ -98,7 +98,6 @@ Nested
 -   EEE
 -   FFF
 
-
 ```
 Math.random();
-````
+```
