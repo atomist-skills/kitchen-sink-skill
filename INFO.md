@@ -6,24 +6,25 @@ Well, nothing. But it can be good for testing!
 Math.random();
 ```
 
-
 > Should not highlight
+
 ```nohighlight
 new Thing();
 ```
 
 Tight list
 
-- a
-- b
-- c
-- d
+-   a
+-   b
+-   c
+-   d
 
 Loose list
 
-- a  
+-   a
 
-  bbb
-- c 
+    bbb
 
-  ddd
+-   c
+
+    ddd
