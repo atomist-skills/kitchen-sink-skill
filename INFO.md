@@ -4,6 +4,6 @@ Well, nothing. But it can be good for testing!
 
 
 
-```javascripot
+```javascript
 Math.random();
 ```
