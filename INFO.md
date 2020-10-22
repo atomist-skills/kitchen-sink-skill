@@ -2,13 +2,14 @@
 
 Well, nothing. But it can be good for testing!
 
-
 Javascript block
+
 ```javascript
 Math.random();
 ```
 
 Auto-detect block
+
 ```
 Facter.add(:libcheck) do
   require 'digest'
