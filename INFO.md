@@ -2,13 +2,13 @@
 
 Well, nothing. But it can be good for testing!
 
-```javascript
+```
 Math.random();
 ```
 
 > Should not highlight
 
-```nohighlight
+```no-highlight
 new Thing();
 ```
 
