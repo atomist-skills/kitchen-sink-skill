@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@atomist/api-cljs": "^0.4.116",
+    "@atomist/skill": "^0.4.0",
     "@atomist/skill-logging": "^0.2.6",
     "@google-cloud/pubsub": "^2.6.0",
     "@google-cloud/storage": "^5.3.0",
