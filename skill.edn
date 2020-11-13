@@ -64,7 +64,7 @@
    :description "gather insane parameters",
    :pattern "^kitchen sink.*$"}],
  :iconUrl
- "https://raw.githubusercontent.com/cljs/logo/master/cljs.png",
+ "https://raw.githubusercontent.com/atomist-skills/kitchen-sink-skill/master/image/icon.svg"
  :runtime
  {:name "nodejs10",
   :entry_point "eventhandler",
