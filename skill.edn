@@ -55,7 +55,7 @@
  :long_description
  "The user specifies a very bizarre set of unrelated parameters and then \nwe simply echo them back to the user to prove some internal points to ourselves.\nThis runs in multiple dispatch mode\n",
  :icon
- "https://images.atomist.com/logo/atomist-black-mark-small-2x.png",
+ "https://raw.githubusercontent.com/atomist-skills/kitchen-sink-skill/master/image/icon.svg"
  :title "The Kitchen Sink",
  :author "Atomist",
  :dispatch "multiple",
