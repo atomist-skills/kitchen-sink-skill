@@ -269,7 +269,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `is`                         | `3.3.0`    | Enrico Marino       | [https://github.com/enricomarino/is](https://github.com/enricomarino/is)                                                                       |
 | `isarray`                    | `1.0.0`    | Julian Gruber       | [https://github.com/juliangruber/isarray](https://github.com/juliangruber/isarray)                                                             |
 | `isstream`                   | `0.1.2`    | Rod Vagg            | [https://github.com/rvagg/isstream](https://github.com/rvagg/isstream)                                                                         |
-| `js-yaml`                    | `3.14.0`   | Vladimir Zapparov   | [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)                                                                         |
+| `js-yaml`                    | `3.14.1`   | Vladimir Zapparov   | [https://github.com/nodeca/js-yaml](https://github.com/nodeca/js-yaml)                                                                         |
 | `jsbn`                       | `0.1.1`    | Tom Wu              | [https://github.com/andyperlitch/jsbn](https://github.com/andyperlitch/jsbn)                                                                   |
 | `json-bigint`                | `1.0.0`    | Andrey Sidorov      | [https://github.com/sidorares/json-bigint](https://github.com/sidorares/json-bigint)                                                           |
 | `json-schema-traverse`       | `0.4.1`    | Evgeny Poberezkin   | [https://github.com/epoberezkin/json-schema-traverse](https://github.com/epoberezkin/json-schema-traverse)                                     |
@@ -350,7 +350,7 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 
 | Name                | Version   | Publisher       | Repository |
 | ------------------- | --------- | --------------- | ---------- |
-| `@atomist/api-cljs` | `0.4.143` | jim@atomist.com |            |
+| `@atomist/api-cljs` | `0.4.144` | jim@atomist.com |            |
 
 #### Unlicense
 
