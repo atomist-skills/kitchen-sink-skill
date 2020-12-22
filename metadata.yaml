@@ -1,0 +1,19 @@
+metatags:
+  # 60 chars max
+  title: Kitchen Sink Skill | Atomist
+  twitter_title: This Kitchen is for you | Atomist
+  og_title: Kitchen Sink of skills | Atomist
+
+  #155 chars max
+  description: Let's get cooking
+  og_description: Mmm mmmm delicious.
+  twttier_description: It's a masterpiece.
+  
+  og_image: https://via.placeholder.com/150.jpg
+  twitter_image: https://via.placeholder.com/150.jpg
+video_url: https://www.youtube.com/watch?v=oHg5SJYRHA0
+carousel_images:
+  - url: https://nhlakes.org/wp-content/uploads/nh-lakes-our-programs.jpg
+    caption: "this is an image"
+  - url: https://nhlakes.org/wp-content/uploads/nh-lakes-lake-host-program-boats.jpg
+    caption: "this is another image"
