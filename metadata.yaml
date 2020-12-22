@@ -21,7 +21,7 @@ metatags:
   #155 chars max
   description: Let's get cooking
   og_description: Mmm mmmm delicious.
-  twttier_description: It's a masterpiece.
+  twitter_description: It's a masterpiece.
 
   og_image: https://via.placeholder.com/150.jpg
   twitter_image: https://via.placeholder.com/150.jpg
