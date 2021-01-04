@@ -29,3 +29,5 @@ video_url: https://www.youtube.com/watch?v=oHg5SJYRHA0
 carousel_images:
   - url: https://nhlakes.org/wp-content/uploads/nh-lakes-our-programs.jpg
     caption: "this is an image"
+ - url: https://nhlakes.org/wp-content/uploads/nh-lakes-lake-host-program-boats.jpg
+    caption: "this is another image"
