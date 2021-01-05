@@ -25,7 +25,7 @@ metatags:
 
   og-image: https://via.placeholder.com/150.jpg
   twitter-image: https://via.placeholder.com/150.jpg
-video_url: https://www.youtube.com/watch?v=oHg5SJYRHA0
+video_id: oHg5SJYRHA0
 carousel_images:
   - url: https://nhlakes.org/wp-content/uploads/nh-lakes-our-programs.jpg
     caption: "this is an image"
