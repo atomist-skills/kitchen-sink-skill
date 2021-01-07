@@ -31,5 +31,5 @@ carousel_images:
     caption: "this is an image"
   - url: https://nhlakes.org/wp-content/uploads/nh-lakes-lake-host-program-boats.jpg
     caption: "this is another image"
- - url: https://nhlakes.org/wp-content/uploads/nh-lakes-lake-host-program-boats.jpg
+  - url: https://nhlakes.org/wp-content/uploads/nh-lakes-lake-host-program-boats.jpg
     caption: "this is another image"
