@@ -33,3 +33,12 @@ carousel:
       caption: "this is another image"
     - url: https://nhlakes.org/wp-content/uploads/nh-lakes-lake-host-program-boats.jpg
       caption: "this is another image"
+
+# This array determines the order of groups and parameters on the config page.  For each group, the first parameter
+# listed determines the order of that group.  Within each group, the paramater listing determines the order of the
+# parameters that belong to this group.
+parameters:
+  - name: Riddle
+    tooltip: "This will never be used to do anything useful. It's pointless."
+    help_text: "Please enter something starting with A riddle"
+      
