@@ -41,4 +41,3 @@ parameters:
   - name: Riddle
     tooltip: "This will never be used to do anything useful. It's pointless."
     help_text: "Please enter something starting with A riddle"
-      
