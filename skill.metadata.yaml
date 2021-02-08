@@ -34,6 +34,10 @@ carousel:
     - url: https://nhlakes.org/wp-content/uploads/nh-lakes-lake-host-program-boats.jpg
       caption: "this is another image"
 
+parameter_groups:
+  - name: whatToDo
+    display_name: What To Do
+
 # This array determines the order of groups and parameters on the config page.  For each group, the first parameter
 # listed determines the order of that group.  Within each group, the paramater listing determines the order of the
 # parameters that belong to this group.
@@ -42,3 +46,4 @@ parameters:
     tooltip: "This will never be used to do anything useful. It's pointless."
     help_text: "Please enter something starting with A riddle"
     description: "Experiment with overriding the description"
+    group: whatToDo
