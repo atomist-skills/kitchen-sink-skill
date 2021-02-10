@@ -47,3 +47,9 @@ parameters:
     help_text: "Please enter something starting with A riddle"
     description: "Experiment with overriding the description"
     group: whatToDo
+  - name: advanced-riddle
+    group: whatToDo
+    condition:
+      name: Riddle
+      values: 
+        - A riddle advanced
