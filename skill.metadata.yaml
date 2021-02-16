@@ -37,6 +37,8 @@ carousel:
 parameter_groups:
   - name: whatToDo
     display_name: What To Do
+  - name: secondGroup
+    display_name: Second Grouping Here
 
 # This array determines the order of groups and parameters on the config page.  For each group, the first parameter
 # listed determines the order of that group.  Within each group, the paramater listing determines the order of the
@@ -53,3 +55,12 @@ parameters:
       name: Riddle
       values: 
         - A riddle show
+  - name: SingleChoice
+    group: secondGroup
+  - name: Integer
+    group: secondGroup
+    condition:
+      name: SingleChoice
+      values:
+        - bling
+        - blubber
