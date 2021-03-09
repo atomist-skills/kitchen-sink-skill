@@ -37,6 +37,7 @@ carousel:
 parameter_groups:
   - name: whatToDo
     display_name: What To Do
+    description: These parameters are all about what you want to do
   - name: secondGroup
     display_name: Second Grouping Here
 
