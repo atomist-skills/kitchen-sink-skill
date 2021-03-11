@@ -9,7 +9,7 @@ This page details all runtime dependencies of `kitchen-sink`.
 | License                       | Count |
 | ----------------------------- | ----- |
 | [AFLv2.1](#aflv21)            | 1     |
-| [Apache-2.0](#apache-20)      | 42    |
+| [Apache-2.0](#apache-20)      | 43    |
 | [Apache](#apache)             | 1     |
 | [BSD-2-Clause](#bsd-2-clause) | 7     |
 | [BSD-3-Clause](#bsd-3-clause) | 19    |
@@ -17,7 +17,7 @@ This page details all runtime dependencies of `kitchen-sink`.
 | [CC0-1.0](#cc0-10)            | 1     |
 | [GPL-2.0](#gpl-20)            | 1     |
 | [ISC](#isc)                   | 29    |
-| [MIT](#mit)                   | 162   |
+| [MIT](#mit)                   | 161   |
 | [UNKNOWN](#unknown)           | 1     |
 | [Unlicense](#unlicense)       | 1     |
 
@@ -41,16 +41,16 @@ Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apa
 | ------------------------------------- | ------------ | --------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
 | `@atomist/skill-logging`              | `0.2.6`      | Atomist               | [https://github.com/atomist-skills/skill-logging](https://github.com/atomist-skills/skill-logging)                               |
 | `@google-cloud/common`                | `3.4.1`      | Google Inc.           | [https://github.com/googleapis/nodejs-common](https://github.com/googleapis/nodejs-common)                                       |
-| `@google-cloud/common`                | `3.5.0`      | Google Inc.           | [https://github.com/googleapis/nodejs-common](https://github.com/googleapis/nodejs-common)                                       |
+| `@google-cloud/common`                | `3.6.0`      | Google Inc.           | [https://github.com/googleapis/nodejs-common](https://github.com/googleapis/nodejs-common)                                       |
 | `@google-cloud/logging`               | `8.0.8`      | Google Inc.           | [https://github.com/googleapis/nodejs-logging](https://github.com/googleapis/nodejs-logging)                                     |
 | `@google-cloud/paginator`             | `3.0.5`      | Google Inc.           | [https://github.com/googleapis/nodejs-paginator](https://github.com/googleapis/nodejs-paginator)                                 |
 | `@google-cloud/precise-date`          | `2.0.3`      | Google Inc.           | [https://github.com/googleapis/nodejs-precise-date](https://github.com/googleapis/nodejs-precise-date)                           |
 | `@google-cloud/projectify`            | `2.0.1`      | Google Inc.           | [https://github.com/googleapis/nodejs-projectify](https://github.com/googleapis/nodejs-projectify)                               |
 | `@google-cloud/promisify`             | `2.0.3`      | Google Inc.           | [https://github.com/googleapis/nodejs-promisify](https://github.com/googleapis/nodejs-promisify)                                 |
-| `@google-cloud/pubsub`                | `2.8.0`      | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
-| `@google-cloud/storage`               | `5.7.4`      | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
+| `@google-cloud/pubsub`                | `2.10.0`     | Google Inc.           | [https://github.com/googleapis/nodejs-pubsub](https://github.com/googleapis/nodejs-pubsub)                                       |
+| `@google-cloud/storage`               | `5.8.1`      | Google Inc.           | [https://github.com/googleapis/nodejs-storage](https://github.com/googleapis/nodejs-storage)                                     |
 | `@grpc/grpc-js`                       | `1.1.7`      | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
-| `@grpc/grpc-js`                       | `1.2.3`      | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
+| `@grpc/grpc-js`                       | `1.2.10`     | Google Inc.           | [https://github.com/grpc/grpc-node/tree/master/packages/grpc-js](https://github.com/grpc/grpc-node/tree/master/packages/grpc-js) |
 | `@grpc/proto-loader`                  | `0.5.3`      | Google Inc.           | [https://github.com/grpc/grpc-node](https://github.com/grpc/grpc-node)                                                           |
 | `@grpc/proto-loader`                  | `0.6.0-pre9` | Google Inc.           | [https://github.com/grpc/grpc-node](https://github.com/grpc/grpc-node)                                                           |
 | `@opencensus/core`                    | `0.0.22`     | Google Inc.           | [https://github.com/census-instrumentation/opencensus-node](https://github.com/census-instrumentation/opencensus-node)           |
@@ -68,12 +68,13 @@ Apache License 2.0 - [http://www.apache.org/licenses/LICENSE-2.0](http://www.apa
 | `fast-text-encoding`                  | `1.0.3`      | Sam Thorogood         | [https://github.com/samthor/fast-text-encoding](https://github.com/samthor/fast-text-encoding)                                   |
 | `forever-agent`                       | `0.6.1`      | Mikeal Rogers         | [https://github.com/mikeal/forever-agent](https://github.com/mikeal/forever-agent)                                               |
 | `gaxios`                              | `3.2.0`      | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
-| `gaxios`                              | `4.0.1`      | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
+| `gaxios`                              | `4.2.0`      | Google, LLC           | [https://github.com/googleapis/gaxios](https://github.com/googleapis/gaxios)                                                     |
 | `gcp-metadata`                        | `4.2.0`      | Stephen Sawchuk       | [https://github.com/googleapis/gcp-metadata](https://github.com/googleapis/gcp-metadata)                                         |
 | `gcp-metadata`                        | `4.2.1`      | Stephen Sawchuk       | [https://github.com/googleapis/gcp-metadata](https://github.com/googleapis/gcp-metadata)                                         |
 | `google-auth-library`                 | `6.1.1`      | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
-| `google-auth-library`                 | `6.1.3`      | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
-| `google-gax`                          | `2.10.0`     | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
+| `google-auth-library`                 | `6.1.6`      | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
+| `google-auth-library`                 | `7.0.2`      | Google Inc.           | [https://github.com/googleapis/google-auth-library-nodejs](https://github.com/googleapis/google-auth-library-nodejs)             |
+| `google-gax`                          | `2.11.2`     | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
 | `google-gax`                          | `2.9.0`      | Google API Authors    | [https://github.com/googleapis/gax-nodejs](https://github.com/googleapis/gax-nodejs)                                             |
 | `hex2dec`                             | `1.1.2`      |                       | [https://github.com/donmccurdy/hex2dec](https://github.com/donmccurdy/hex2dec)                                                   |
 | `long`                                | `4.0.0`      | Daniel Wirtz          | [https://github.com/dcodeIO/long.js](https://github.com/dcodeIO/long.js)                                                         |
@@ -196,10 +197,9 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `@types/long`                | `4.0.1`    |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
 | `@types/node`                | `10.17.13` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
 | `@types/node`                | `12.12.67` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `@types/node`                | `12.19.12` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
 | `@types/node`                | `13.13.25` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `@types/node`                | `13.13.39` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
-| `@types/node`                | `14.14.20` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `@types/node`                | `13.13.46` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
+| `@types/node`                | `14.14.33` |                     | [https://github.com/DefinitelyTyped/DefinitelyTyped](https://github.com/DefinitelyTyped/DefinitelyTyped)                                       |
 | `abort-controller`           | `3.0.0`    | Toru Nagashima      | [https://github.com/mysticatea/abort-controller](https://github.com/mysticatea/abort-controller)                                               |
 | `agent-base`                 | `6.0.1`    | Nathan Rajlich      | [https://github.com/TooTallNate/node-agent-base](https://github.com/TooTallNate/node-agent-base)                                               |
 | `ajv`                        | `6.12.2`   | Evgeny Poberezkin   | [https://github.com/epoberezkin/ajv](https://github.com/epoberezkin/ajv)                                                                       |
@@ -247,12 +247,12 @@ MIT License - [https://opensource.org/licenses/MIT](https://opensource.org/licen
 | `fill-range`                 | `7.0.1`    | Jon Schlinkert      | [https://github.com/jonschlinkert/fill-range](https://github.com/jonschlinkert/fill-range)                                                     |
 | `find-up`                    | `4.1.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/find-up](https://github.com/sindresorhus/find-up)                                                             |
 | `form-data`                  | `2.3.3`    | Felix Geisendörfer  | [https://github.com/form-data/form-data](https://github.com/form-data/form-data)                                                               |
-| `gcs-resumable-upload`       | `3.1.2`    | Stephen Sawchuk     | [https://github.com/googleapis/gcs-resumable-upload](https://github.com/googleapis/gcs-resumable-upload)                                       |
+| `gcs-resumable-upload`       | `3.1.3`    | Stephen Sawchuk     | [https://github.com/googleapis/gcs-resumable-upload](https://github.com/googleapis/gcs-resumable-upload)                                       |
 | `get-stream`                 | `6.0.0`    | Sindre Sorhus       | [https://github.com/sindresorhus/get-stream](https://github.com/sindresorhus/get-stream)                                                       |
 | `getpass`                    | `0.1.7`    | Alex Wilson         | [https://github.com/arekinath/node-getpass](https://github.com/arekinath/node-getpass)                                                         |
 | `google-p12-pem`             | `3.0.3`    | Ryan Seys           | [https://github.com/google/google-p12-pem](https://github.com/google/google-p12-pem)                                                           |
 | `gtoken`                     | `5.0.4`    | Google, LLC         | [https://github.com/google/node-gtoken](https://github.com/google/node-gtoken)                                                                 |
-| `gtoken`                     | `5.1.0`    | Google, LLC         | [https://github.com/google/node-gtoken](https://github.com/google/node-gtoken)                                                                 |
+| `gtoken`                     | `5.2.1`    | Google, LLC         | [https://github.com/google/node-gtoken](https://github.com/google/node-gtoken)                                                                 |
 | `har-validator`              | `5.1.3`    | Ahmad Nassri        | [https://github.com/ahmadnassri/node-har-validator](https://github.com/ahmadnassri/node-har-validator)                                         |
 | `hash-stream-validation`     | `0.2.4`    | Stephen Sawchuk     | [https://github.com/stephenplusplus/hash-stream-validation](https://github.com/stephenplusplus/hash-stream-validation)                         |
 | `http-proxy-agent`           | `4.0.1`    | Nathan Rajlich      | [https://github.com/TooTallNate/node-http-proxy-agent](https://github.com/TooTallNate/node-http-proxy-agent)                                   |
