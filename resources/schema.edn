@@ -1,0 +1,5 @@
+{:attributes [{:db/ident :kitchen/sink
+               :db.entity/attrs [:kitchen.sink/source-id]}
+              {:db/ident :kitchen.sink/source-id
+               :db/valueType :db.type/string
+               :db/cardinality :db.cardinality/one}]}
