@@ -43,7 +43,7 @@ npm run skill
 # with subs / schemas etc so can check that
 # if Packaging Skill is setup to register the skill then it will do the same as above
 # configure this for the required env at go.atomist.*
-# then pushing this repo will do the above
+# then tagging this repo will do the above - it doesn't listen to pushes just tags
 ```
 
 # How to kitchen-sink-skill
