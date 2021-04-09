@@ -34,6 +34,18 @@ O you're going to need it all, and nothing at all.
 >
 > And it's multi-line
 
+# Registering
+
+```bash
+npm install
+npm run skill
+# creates .atomist folder and convert skill edn into a skill.yaml
+# with subs / schemas etc so can check that
+# if Packaging Skill is setup to register the skill then it will do the same as above
+# configure this for the required env at go.atomist.*
+# then pushing this repo will do the above
+```
+
 # How to kitchen-sink-skill
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
