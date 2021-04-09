@@ -54,7 +54,7 @@ parameters:
     group: whatToDo
     condition:
       name: Riddle
-      values: 
+      values:
         - A riddle show
   - name: SingleChoice
     group: secondGroup
