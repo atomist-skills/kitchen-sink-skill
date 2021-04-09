@@ -5,7 +5,9 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased](https://github.com/atomist-skills/kitchen-sink-skill/compare/0.1.98...HEAD)
+## [Unreleased](https://github.com/atomist-skills/kitchen-sink-skill/compare/0.1.99...HEAD)
+
+## [0.1.99](https://github.com/atomist-skills/kitchen-sink-skill/compare/0.1.98...0.1.99) - 2021-04-09
 
 ## [0.1.98](https://github.com/atomist-skills/kitchen-sink-skill/compare/0.1.2...0.1.98) - 2021-04-09
 
